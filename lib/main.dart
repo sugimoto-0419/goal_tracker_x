@@ -18,11 +18,17 @@ class MyApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp.router(
+      // 端末の文字サイズを使用しない。
+      // builder: (context, child) {
+      //   return MediaQuery(
+      //     data: MediaQuery.of(context).copyWith(textScaleFactor: 1),
+      //     child: child!,
+      //   );
+      // },
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: 'YuGothic',
       ),
-      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: false,
       routerConfig: router,
     );
   }
