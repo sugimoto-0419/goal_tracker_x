@@ -30,6 +30,8 @@ samples, guidance on mobile development, and a full API reference.
 
 ### freezedなど不変クラスを作成するために以下のコマンドを使用する
 
+flutter packages pub run build_runner build
+
 `flutter pub run build_runner watch --delete-conflicting-outputs`
 
 ## 静的解析の強化
