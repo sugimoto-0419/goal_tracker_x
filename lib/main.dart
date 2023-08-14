@@ -27,9 +27,10 @@ class MyApp extends ConsumerWidget {
       // },
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'YuGothic',
       ),
       // debugShowCheckedModeBanner: false,
-      routerConfig: router,
+      routerConfig: logout,
     );
   }
 }
